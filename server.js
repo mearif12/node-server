@@ -48,6 +48,6 @@ const server = Http.createServer((req,res)=>{
 
 });
 
-server.listen(Port,hostName,()=>{
+server.listen(Port,()=>{
     console.log(`Server is running successfully at http://localhost:${Port}`);
 });
