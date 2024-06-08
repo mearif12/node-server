@@ -17,7 +17,7 @@
 const Http = require("http");
 const File = require("fs");
 const Port = process.env.PORT || 4500;
-const hostName = "127.0.0.1";
+//const hostName = "127.0.0.1";
 
 const server = Http.createServer((req,res)=>{
 
@@ -49,5 +49,5 @@ const server = Http.createServer((req,res)=>{
 });
 
 server.listen(Port,hostName,()=>{
-    console.log(`Server is running successfully at http://${hostName}:${Port}`);
+    console.log(`Server is running successfully at http://localhost:${Port}`);
 });
