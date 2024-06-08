@@ -16,7 +16,7 @@
 
 const Http = require("http");
 const File = require("fs");
-const Port = process.env.Port || 4500;
+const Port = process.env.PORT || 4500;
 const hostName = "127.0.0.1";
 
 const server = Http.createServer((req,res)=>{
